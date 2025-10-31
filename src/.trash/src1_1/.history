@@ -1,0 +1,702 @@
+[
+  {
+    "timestamp": "2025-10-29T20:34:24.812329",
+    "command": "cd            ..",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-29T20:34:28.604939",
+    "command": "c d",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T00:35:51.698226",
+    "command": "cp src src_copy",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T00:35:51.700782",
+    "command": "cp src src_copy",
+    "type": "cp",
+    "source": "src",
+    "destination": "src_copy"
+  },
+  {
+    "timestamp": "2025-10-31T00:37:12.547914",
+    "command": "python3 src/main.py",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T00:37:47.040209",
+    "command": "cp src src_copy",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T00:37:47.041748",
+    "command": "cp src src_copy",
+    "type": "cp",
+    "source": "src",
+    "destination": "src_copy"
+  },
+  {
+    "timestamp": "2025-10-31T00:39:39.478816",
+    "command": "cp src src1",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T00:39:39.479991",
+    "command": "cp src src1",
+    "type": "cp",
+    "source": "src",
+    "destination": "src1"
+  },
+  {
+    "timestamp": "2025-10-31T00:42:29.003949",
+    "command": "cp src src2",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T00:42:29.006366",
+    "command": "cp src src2",
+    "type": "cp",
+    "source": "src",
+    "destination": "src2"
+  },
+  {
+    "timestamp": "2025-10-31T02:26:21.472571",
+    "command": "cp src src2",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T02:26:21.475260",
+    "command": "cp src src2",
+    "type": "cp",
+    "source": "src",
+    "destination": "src2"
+  },
+  {
+    "timestamp": "2025-10-31T02:30:29.168719",
+    "command": "cp src src2",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T02:30:29.170977",
+    "command": "cp src src2",
+    "type": "cp",
+    "source": "src",
+    "destination": "src2"
+  },
+  {
+    "timestamp": "2025-10-31T02:32:38.186323",
+    "command": "cp src src2",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T02:32:38.188483",
+    "command": "cp src src2",
+    "type": "cp",
+    "source": "src",
+    "destination": "src2"
+  },
+  {
+    "timestamp": "2025-10-31T02:35:47.052827",
+    "command": "cp src src2",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T02:35:47.054889",
+    "command": "cp src src2",
+    "type": "cp",
+    "source": "src",
+    "destination": "src2"
+  },
+  {
+    "timestamp": "2025-10-31T02:36:00.597827",
+    "command": "NotADirectoryError: 'Ошибка: Для операции с директориями нужен флаг -r'",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T02:42:18.949838",
+    "command": "cp src src2",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T02:42:18.952223",
+    "command": "cp src src2",
+    "type": "cp",
+    "source": "src",
+    "destination": "src2"
+  },
+  {
+    "timestamp": "2025-10-31T02:45:33.831109",
+    "command": "cp src s1",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T02:45:33.832311",
+    "command": "cp src s1",
+    "type": "cp",
+    "source": "src",
+    "destination": "s1"
+  },
+  {
+    "timestamp": "2025-10-31T02:46:59.586919",
+    "command": "cp src src1",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T02:46:59.588540",
+    "command": "cp src src1",
+    "type": "cp",
+    "source": "src",
+    "destination": "src1"
+  },
+  {
+    "timestamp": "2025-10-31T02:51:22.541748",
+    "command": "cp src s",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T02:51:22.543479",
+    "command": "cp src s",
+    "type": "cp",
+    "source": "src",
+    "destination": "s"
+  },
+  {
+    "timestamp": "2025-10-31T02:51:44.941438",
+    "command": "cp -r src src1",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T02:51:44.942665",
+    "command": "cp -r src src1",
+    "type": "cp",
+    "source": "src",
+    "destination": "src1"
+  },
+  {
+    "timestamp": "2025-10-31T02:53:09.863752",
+    "command": "rm src1",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T02:53:09.866333",
+    "command": "rm src1",
+    "type": "rm",
+    "source": "src1",
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T02:53:14.368295",
+    "command": "src -r src1",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T02:53:24.035342",
+    "command": "rm -r src1",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T02:58:12.963189",
+    "command": "cp -r src src1",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:05:15.975587",
+    "command": "rm src1",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:05:15.978691",
+    "command": "rm src1",
+    "type": "rm",
+    "source": "src1",
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:05:21.250944",
+    "command": "rm -r src1",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:21:52.785234",
+    "command": "echo",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:22:11.316151",
+    "command": "echo 'Hello World' > test1.txt",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:22:22.385442",
+    "command": "rm -src1",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:22:22.386698",
+    "command": "rm -src1",
+    "type": "rm",
+    "source": "-src1",
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:22:29.423621",
+    "command": "rm -r src1",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:25:16.021721",
+    "command": "grep Hello test1.txt",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:25:55.506779",
+    "command": "grep -i A test2.txt",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:26:08.165288",
+    "command": "grep , test2.txt",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:27:17.447425",
+    "command": "asdh",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:31:47.284291",
+    "command": "ls -l",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:48:20.898978",
+    "command": "ls -l",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:50:01.466920",
+    "command": "rm test1.txt",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:50:23.852716",
+    "command": "rm -r src1",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:50:23.853572",
+    "command": "rm -r src1",
+    "type": "rm",
+    "source": "src1",
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:50:37.887783",
+    "command": "rm test1.txt",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:50:37.888933",
+    "command": "rm test1.txt",
+    "type": "rm",
+    "source": "test1.txt",
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:50:42.357547",
+    "command": "rm test2.txt",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:50:42.358629",
+    "command": "rm test2.txt",
+    "type": "rm",
+    "source": "test2.txt",
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:53:12.664247",
+    "command": "grep 1",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:56:23.953750",
+    "command": "пкуз",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:56:27.172602",
+    "command": "grep 3",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:56:41.145325",
+    "command": "grep",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:58:01.269240",
+    "command": "grep",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:58:19.767453",
+    "command": "rm",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:58:34.417545",
+    "command": "mv",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:59:03.707707",
+    "command": "mv",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:59:28.624532",
+    "command": "cp src src1",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T11:59:28.625877",
+    "command": "cp src src1",
+    "type": "cp",
+    "source": "src",
+    "destination": "src1"
+  },
+  {
+    "timestamp": "2025-10-31T11:59:35.731695",
+    "command": "cp src -r src1",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T12:00:04.651836",
+    "command": "cp src src1 -r",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T12:00:04.652698",
+    "command": "cp src src1 -r",
+    "type": "cp",
+    "source": "src",
+    "destination": "src1"
+  },
+  {
+    "timestamp": "2025-10-31T12:00:14.507463",
+    "command": "rm -r src1",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T12:00:14.508984",
+    "command": "rm -r src1",
+    "type": "rm",
+    "source": "src1",
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T12:01:43.191241",
+    "command": "cp -r src src1",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T12:02:47.309911",
+    "command": "cp src src1         -r",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T12:03:10.545426",
+    "command": "cp src -r src1",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T12:03:21.185612",
+    "command": "d",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T12:03:32.281507",
+    "command": "cp src src1 -r",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T12:03:32.282656",
+    "command": "cp src src1 -r",
+    "type": "cp",
+    "source": "src",
+    "destination": "src1"
+  },
+  {
+    "timestamp": "2025-10-31T12:04:37.621643",
+    "command": "cp -r src src1",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T12:04:37.623063",
+    "command": "cp -r src src1",
+    "type": "cp",
+    "source": "src",
+    "destination": "src1"
+  },
+  {
+    "timestamp": "2025-10-31T12:04:46.008584",
+    "command": "rm src1 -r",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T12:04:53.955590",
+    "command": "cp -r src src1",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T12:06:06.855388",
+    "command": "cp shell.py shell1.py",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T12:06:19.011468",
+    "command": "cp src/shell.py shell1.py",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T13:58:03.430816",
+    "command": "clear_trash",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T14:03:11.186646",
+    "command": "cd",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T14:03:18.444315",
+    "command": "cd prog",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T14:04:15.916899",
+    "command": "clear_trash",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T14:07:30.790436",
+    "command": "cp src -r src1",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T14:07:37.275555",
+    "command": "rm -r src1",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T14:07:44.120820",
+    "command": "rm src1 -r",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T14:18:42.147773",
+    "command": "ды -д",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T14:18:46.550809",
+    "command": "ls -l",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T18:26:33.520869",
+    "command": "test",
+    "type": "test",
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T20:14:29.354654",
+    "command": "clear_trash",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T20:14:36.558944",
+    "command": "cp src -r src1",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T20:14:42.211549",
+    "command": "ls -l",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T20:14:44.487563",
+    "command": "undo",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T20:15:53.342960",
+    "command": "history",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T20:16:05.139856",
+    "command": "history 321",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-10-31T20:19:28.869306",
+    "command": "cp src src1 -r",
+    "type": "cp",
+    "source": "src",
+    "destination": "src1"
+  }
+]
