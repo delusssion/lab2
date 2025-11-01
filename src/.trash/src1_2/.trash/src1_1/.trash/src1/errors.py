@@ -9,7 +9,7 @@ class CommandContext:
     def __exit__(self, exc_type, exc_val, exc_tb):
         if exc_type:
             self.handle_error(exc_type, exc_val)
-            return True 
+            return True
         return False
 
     def handle_error(self, exc_type, exc_val):

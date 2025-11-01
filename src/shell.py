@@ -88,7 +88,7 @@ def run_command(command, cmd, args):
         elif cmd == 'undo':
             result = undo_last()
             print(result)
-        
+
         elif cmd == 'clear_trash':
             result = clear_trash()
             print(result)
@@ -139,4 +139,3 @@ def main():
             break
 
     print('Завершение работы Shell.')
-    

@@ -13,6 +13,6 @@ def cd(path: str = None) -> str:
         new_path = Path(path).expanduser().resolve()
         validate_path_exists(new_path)
         validate_is_directory(new_path)
-    
+
     os.chdir(new_path)
     return 'Успешно'

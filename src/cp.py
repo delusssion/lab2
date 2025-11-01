@@ -8,7 +8,7 @@ def cp(source: str, destination: str, recursive: bool = False) -> str:
     src_path = Path(source)
     dst_path = Path(destination)
     validate_path_exists(src_path)
-    
+
     if src_path.is_dir():
         if not recursive:
             raise NotADirectoryError('Для копирования директорий используйте флаг -r')

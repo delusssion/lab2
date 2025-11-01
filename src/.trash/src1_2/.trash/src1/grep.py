@@ -8,11 +8,11 @@ def grep(pattern, search_path, recursive=False, ignore_case=False):
     with CommandContext():
         path_obj = Path(search_path)
         validate_path_exists(path_obj)
-        
+
         flags = re.IGNORECASE if ignore_case else 0
         regex = re.compile(pattern, flags)
         found_matches = False
-        
+
         def search_in_file(file_path):
             nonlocal found_matches
             try:
@@ -23,7 +23,7 @@ def grep(pattern, search_path, recursive=False, ignore_case=False):
                             print(f'{file_path}:{line_num}: {line.strip()}')
             except (UnicodeDecodeError, PermissionError):
                 pass
-        
+
         if path_obj.is_file():
             search_in_file(path_obj)
         elif path_obj.is_dir():
@@ -31,8 +31,8 @@ def grep(pattern, search_path, recursive=False, ignore_case=False):
             for file_item in files:
                 if file_item.is_file():
                     search_in_file(file_item)
-        
+
         if not found_matches:
             print('Совпадений не найдено')
-        
+
         return 'Успешно'

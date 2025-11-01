@@ -8,11 +8,11 @@ def cp(source, destination, recursive=False):
     with CommandContext():
         if not source or not destination:
             raise ValueError('Источник и назначение обязательны')
-        
+
         src_path = Path(source)
         dst_path = Path(destination)
         validate_path_exists(src_path)
-        
+
         if src_path.is_dir():
             if not recursive:
                 raise NotADirectoryError('Для копирования директорий используйте флаг -r')

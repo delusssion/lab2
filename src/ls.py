@@ -1,7 +1,7 @@
 from pathlib import Path
 from datetime import datetime
 from errors import validate_path_exists
-import stat 
+import stat
 from constants import DATE_FORMAT
 
 def format_size(size: int) -> str:
@@ -32,14 +32,14 @@ def get_permissions(mode: int) -> str:
     permissions += 'r' if mode & stat.S_IROTH else '-'
     permissions += 'w' if mode & stat.S_IWOTH else '-'
     permissions += 'x' if mode & stat.S_IXOTH else '-'
-    
+
     return permissions
 
 def ls(path: str = '.', long_format: bool = False) -> None:
     '''Отображает содержимое директории'''
     folder_path = Path(path)
     validate_path_exists(folder_path)
-    
+
     file_list = []
     for item in folder_path.iterdir():
         try:
@@ -54,9 +54,9 @@ def ls(path: str = '.', long_format: bool = False) -> None:
             })
         except OSError:
             continue
-    
+
     file_list.sort(key=lambda x: (not x['is_dir'], x['name'].lower()))
-    
+
     if long_format:
         for item in file_list:
             size_display = '<DIR>' if item['is_dir'] else format_size(item['size'])

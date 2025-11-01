@@ -3,12 +3,10 @@ repos:
     rev: v1.18.1
     hooks:
       - id: mypy
-        args: [--show-error-codes, --pretty]
+        args: [--show-error-codes, --pretty, --ignore-missing-imports, --exclude=.*\.trash.*]
         additional_dependencies:
           - types-requests
           - types-PyYAML
-
-
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.12.0

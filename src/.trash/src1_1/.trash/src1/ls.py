@@ -17,7 +17,7 @@ def ls(path='.', long_format=False):
     with CommandContext():
         folder_path = Path(path)
         validate_path_exists(folder_path)
-        
+
         file_list = []
         for item in folder_path.iterdir():
             try:
@@ -30,9 +30,9 @@ def ls(path='.', long_format=False):
                 })
             except OSError:
                 continue
-        
+
         file_list.sort(key=lambda x: (not x['is_dir'], x['name'].lower()))
-        
+
         if long_format:
             for item in file_list:
                 size_display = '<DIR>' if item['is_dir'] else format_size(item['size'])

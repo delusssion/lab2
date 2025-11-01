@@ -14,22 +14,22 @@ lab2/
 │ ├── .trash
 │ ├── shell.log
 │ ├── constants.py
-│ ├── main.py 
-│ ├── shell.py 
-│ ├── ls.py 
+│ ├── main.py
+│ ├── shell.py
+│ ├── ls.py
 │ ├── cd.py
 │ ├── cat.py
 │ ├── cp.py
-│ ├── mv.py 
+│ ├── mv.py
 │ ├── rm.py
-│ ├── grep.py 
-│ ├── archive.py 
+│ ├── grep.py
+│ ├── archive.py
 │ ├── history_manager.py
-│ ├── logger.py 
+│ ├── logger.py
 │ └── errors.py
 ├── tests/
 │ ├── __init__.py
-│ ├── conftest.py 
+│ ├── conftest.py
 │ ├── test_ls.py
 │ ├── test_cd.py
 │ ├── test_cat.py
@@ -56,7 +56,7 @@ lab2/
 
 ## Реализованные команды
 
-### Базовые 
+### Базовые
 
 1. **ls [path] [-l]** — Отображение содержимого директории
    - Поддержка абсолютных и относительных путей
@@ -90,7 +90,7 @@ lab2/
    - Защита от удаления системных директорий (/, ~)
    - Безопасное удаление с перемещением в корзину (.trash)
 
-7. **Логирование** — Все команды записываются в `shell.log` 
+7. **Логирование** — Все команды записываются в `shell.log`
    - Формат: `[дата время] команда`
    - Логирование ошибок
    - По достижении shell.log веса 1MB создается новый shell1.log и так далее
