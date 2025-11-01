@@ -29,7 +29,7 @@ class HistoryManager:
     def add_command(self, command, operation_type=None, source=None, destination=None):
         '''Добавляет команду в историю'''
         e = {
-            'timestamp': datetime.now().isoformat(),
+            'timestamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
             'command': command,
             'type': operation_type,
             'source': source,

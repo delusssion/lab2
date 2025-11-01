@@ -1,47 +1,5 @@
 [
   {
-    "timestamp": "2025-10-31T02:30:29.168719",
-    "command": "cp src src2",
-    "type": null,
-    "source": null,
-    "destination": null
-  },
-  {
-    "timestamp": "2025-10-31T02:30:29.170977",
-    "command": "cp src src2",
-    "type": "cp",
-    "source": "src",
-    "destination": "src2"
-  },
-  {
-    "timestamp": "2025-10-31T02:32:38.186323",
-    "command": "cp src src2",
-    "type": null,
-    "source": null,
-    "destination": null
-  },
-  {
-    "timestamp": "2025-10-31T02:32:38.188483",
-    "command": "cp src src2",
-    "type": "cp",
-    "source": "src",
-    "destination": "src2"
-  },
-  {
-    "timestamp": "2025-10-31T02:35:47.052827",
-    "command": "cp src src2",
-    "type": null,
-    "source": null,
-    "destination": null
-  },
-  {
-    "timestamp": "2025-10-31T02:35:47.054889",
-    "command": "cp src src2",
-    "type": "cp",
-    "source": "src",
-    "destination": "src2"
-  },
-  {
     "timestamp": "2025-10-31T02:36:00.597827",
     "command": "NotADirectoryError: 'Ошибка: Для операции с директориями нужен флаг -r'",
     "type": null,
@@ -697,6 +655,48 @@
     "command": "ls -l",
     "type": null,
     "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-11-01T13:46:35.107089",
+    "command": "cp requirements.txt src",
+    "type": "cp",
+    "source": "requirements.txt",
+    "destination": "src"
+  },
+  {
+    "timestamp": "2025-11-01T13:46:39.755560",
+    "command": "undo",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-11-01T13:47:18.900991",
+    "command": "rm src/requirements.txt",
+    "type": "rm",
+    "source": "src/requirements.txt",
+    "destination": null
+  },
+  {
+    "timestamp": "2025-11-01T13:50:33.115562",
+    "command": "cp requirements.txt src",
+    "type": "cp",
+    "source": "requirements.txt",
+    "destination": "src"
+  },
+  {
+    "timestamp": "2025-11-01T13:50:36.074764",
+    "command": "undo",
+    "type": null,
+    "source": null,
+    "destination": null
+  },
+  {
+    "timestamp": "2025-11-01T13:51:40.693871",
+    "command": "rm src/requirements.txt",
+    "type": "rm",
+    "source": "src/requirements.txt",
     "destination": null
   }
 ]
