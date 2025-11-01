@@ -1,9 +1,8 @@
 import pytest
 from src.errors import validate_path_exists, validate_is_file, validate_is_directory
-
+import tempfile
 
 def test_validate_path_exists():
-    import tempfile
     with tempfile.NamedTemporaryFile() as tmp:
         validate_path_exists(tmp.name)
     
@@ -12,7 +11,6 @@ def test_validate_path_exists():
 
 
 def test_validate_is_file():
-    import tempfile
     with tempfile.NamedTemporaryFile() as tmp:
         validate_is_file(tmp.name)
     
@@ -23,11 +21,9 @@ def test_validate_is_file():
 
 
 def test_validate_is_directory():
-    import tempfile as tmp_dir
-    with tmp_dir.TemporaryDirectory() as tmp:
-        validate_is_directory(tmp)
-    
-    import tempfile
-    with tempfile.NamedTemporaryFile() as tmp:
+    with tempfile.TemporaryDirectory() as tmp_dir:
+        validate_is_directory(tmp_dir)
+
+    with tempfile.NamedTemporaryFile() as tmp_file:
         with pytest.raises(NotADirectoryError):
-            validate_is_directory(tmp.name)
+            validate_is_directory(tmp_file.name)
