@@ -1,4 +1,3 @@
-# grep.py
 import re
 from pathlib import Path
 from errors import validate_path_exists

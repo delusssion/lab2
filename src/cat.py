@@ -1,4 +1,3 @@
-# cat.py
 from pathlib import Path
 from errors import validate_path_exists, validate_is_file
 from constants import MAX_FILE_SIZE

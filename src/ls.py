@@ -49,8 +49,8 @@ def ls(path: str = '.', long_format: bool = False) -> None:
                 'is_dir': item.is_dir(),
                 'size': stats.st_size,
                 'modified': stats.st_mtime,
-                'mode': stats.st_mode,  # Добавляем права доступа
-                'permissions': get_permissions(stats.st_mode)  # И строковое представление
+                'mode': stats.st_mode,
+                'permissions': get_permissions(stats.st_mode)
             })
         except OSError:
             continue
@@ -61,7 +61,6 @@ def ls(path: str = '.', long_format: bool = False) -> None:
         for item in file_list:
             size_display = '<DIR>' if item['is_dir'] else format_size(item['size'])
             date_str = datetime.fromtimestamp(item['modified']).strftime(DATE_FORMAT)
-            # Теперь выводим права доступа первыми
             print(f"{item['permissions']} {size_display:>8} {date_str} {item['name']}")
     else:
         for item in file_list:

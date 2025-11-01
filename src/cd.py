@@ -1,4 +1,3 @@
-# cd.py
 import os
 from pathlib import Path
 from errors import validate_path_exists, validate_is_directory

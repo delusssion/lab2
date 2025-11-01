@@ -1,4 +1,3 @@
-# shell.py
 import os
 from logsetup import setup_logging
 from ls import ls
